@@ -11,9 +11,9 @@ Simplemente descargá este `docker-compose.yaml` y reemplazá estas vars:
 
 ```
 # registry
-VIRTUAL_HOST: docker.peladonerd.com
-LETSENCRYPT_HOST: docker.peladonerd.com
-LETSENCRYPT_EMAIL: pablo@peladonerd.com
+VIRTUAL_HOST: docker.jesusyaro.com
+LETSENCRYPT_HOST: docker.jesusyaro.com
+LETSENCRYPT_EMAIL: jesus@jesusyaro.com
 ```
 
 Usando tu dominio y cuenta de correo para descargar los certs (la cuenta de correo es requerida por let's encrypt)
@@ -25,4 +25,4 @@ Luego de cambiar estas vars, simplemente levantá todo:
 ## Cómo crear un usuario nuevo
 
 `docker run --entrypoint htpasswd registry:2 -Bbn user pass >> auth/htpasswdp`
-# MyPersonalDockerRegistry
+
